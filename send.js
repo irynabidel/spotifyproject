@@ -4,7 +4,7 @@
 //https://patrickmcalinden.github.io/spotfiy-stats/stats.html
 var client_id = 'd51e2ab42e9a440f97ed3651601e7a76';
 var client_secret = 'https://accounts.spotify.com/authorize'; 
-var redirect_uri = 'https://irynabidel.github.io/CCFINAL/stats.html; 
+var redirect_uri = "https://irynabidel.github.io/spotifyproject/stats.html"; 
 var joiner = "%20"
 
 var scopes = ["user-top-read"]
