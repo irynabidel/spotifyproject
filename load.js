@@ -22,9 +22,6 @@ function saveData(){
         localStorage.setItem("accessToken", access_token);
         localStorage.setItem("tokenType", token_type);
         localStorage.setItem("expiresIn", expires_in);
-    }else{
-        alert('Token Data not Found! Please Log In With Spotify!');
-        window.location = 'https://accounts.spotify.com/en/authorize?client_id=ffd460a77ebb49b5a874ff0008cfada0&redirect_uri=https:%2F%2Fpatrickmcalinden.github.io%2Fspotfiy-stats%2Fstats.html&scope=user-top-read&response_type=token&show_dialog=true';
     }
 }
 //Sennding first api request to get basic user info (for greeting)
